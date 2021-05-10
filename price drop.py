@@ -8,8 +8,8 @@ PRODUCT = 'TPS Laptop Battery'
 TARGET_PRICE = 3000
 account_sid = secrets.account_sid
 auth_token = secrets.auth_token
-FROM = secrets.FROM
-TO = secrets.TO
+FROM = secrets.FROM_NUM
+TO = secrets.TO_NUM
 
 
 response = requests.get(URL)
