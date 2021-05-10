@@ -6,8 +6,8 @@ import config
 URL = 'https://www.tpstech.in/products/hp-oa04-notebook-original-battery-f3b94aa-black'
 PRODUCT = 'TPS Laptop Battery'
 TARGET_PRICE = 3000
-account_sid = secrets.account_sid
-auth_token = secrets.auth_token
+account_sid = secrets.ACCOUNT_SID
+auth_token = secrets.AUTH_TOKEN
 FROM = secrets.FROM_NUM
 TO = secrets.TO_NUM
 
